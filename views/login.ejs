@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<section>
+  <h1 class="head"  >Login Page</h1>
+<% if (messages.error) { %>
+  <%= messages.error %>
+<% } %>
+<form action="/login" method="POST">
+  <div class="container" >
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+   </div>
+  <button class="mybtn"  type="submit">Sign In</button>
+</form>
+<a href="/register">Register</a>
+</section>

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
+
+.head {
+  position: absolute;
+  transform: translate(0, -15rem);
+  font-family: cursive, sans-serif;
+  color:rgb(0, 0, 200);
+}
+
+.myBtn {
+  border: none;
+  outline: none;
+  border-radius: 10000px;
+  text-align: center;
+  margin: 1rem;
+  padding: .5em 1em;
+  background: hsl(200, 100%, 50%);
+
+  color: white;
+  font-family: cursive, sans-serif;
+}
+
+
+body {
+  background-image: linear-gradient(to right, #74ebd5, #acb6e5);
+  
+}
+
+
